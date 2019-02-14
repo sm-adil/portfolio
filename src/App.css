@@ -1,33 +1,116 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #404040;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wrapper {
+    margin: 3em auto;
+    max-width: 960px;
+    padding: 0 1.5em;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 0.85rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {    
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.9rem;
+    margin-bottom: 0.85rem;
+}
+
+h3 {   
+    color: #111;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+header {
+    margin: 80px 0 50px 0;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.work-container .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1 1 30%;
+    min-height: 170px;
+    padding: 2em;
+    margin: 1em;
+    background: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.work p {
+    font-size: 1.09rem;
+    margin-bottom: 0;
+}
+
+.work ul {
+    padding: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.work ul li {
+    list-style: none;
+    padding: 4px 15px 4px 15px;
+    margin: 5px;
+    background-color: #6c63ff;
+    color: #fff;
+    font-size: 0.8em;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    margin: 30px 0;
+    text-align: center;
+}
+
+footer a:hover {
+    border-bottom: 2px solid #e0d6eb;
+}
+
+.heart:before {
+    content: '\2665';
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .works h2 {
+        text-align: center;
+    }
 }
