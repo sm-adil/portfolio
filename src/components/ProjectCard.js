@@ -4,7 +4,7 @@ const ProjectCard = ({projects}) => {
   const projectList = projects.length ? (
     projects.map(project => {
       return (
-        <div className="work" key = {project.id}>
+        <div className="project-card" key = {project.id}>
           <h3>{project.title}</h3>
           <p>{project.description}</p>
           <ul>          

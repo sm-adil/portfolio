@@ -41,12 +41,14 @@ class Projects extends Component {
   }
   render() {
     return (
-      <div className="works">
-        <h2>Some of my works.</h2>
-        <div className="work-container">
-          <ProjectCard projects={this.state.projects}/>
+      <section className="projects">
+        <div className="container">
+          <h2>My Projects</h2>
+    			<div class="project-cards">
+            <ProjectCard projects={this.state.projects}/>
+          </div>
         </div>
-      </div>
+      </section>
     )
   }
 }
