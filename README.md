@@ -9,12 +9,12 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm start
+npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm build
+npm run build
 ```
 
 ### Happy hacking!
