@@ -4,34 +4,31 @@ import ProjectCard from './ProjectCard'
 const projectData = {
   projects:
     [
-        {
-            "id": 1,
-            "title": "Trawell",
+        
+      {
+        "id": 1,
+        "title": "Tutor.co: blogging web app",
+        "link": `http://tutor-co.000webhostapp.com/`,
+        "description": "A assignment management website for a modernized institution that take cares of every aspect of learning including exam preparation, overcoming the weaknesses & skill enhancement.",
+        "image_url": `/images/projects/tutor.png`,
+        "tags": ['HTML5', 'CSS3', 'PHP', 'MySQLi']
+      },
+      {
+            "id": 2,
+            "title": "Trawell: android app",
             "link": `https://github.com/mohammed-adil/Trawell`,
             "description": "A travell guider android application targeted for a local area, using PHP for backend to retrieve data from database.",
+            "image_url": `/images/projects/trawell.png`,
             "tags": ['Android', 'PHP', 'MySQLi']
         },
         {
-          "id": 2,
-          "title": "glug-pace.github.io",
-          "link": `https://github.com/mohammed-adil/glug-pace.github.io`,
-          "description": "Official website for GLUG PACE which is a group of people who works for Free Software Movement Karnataka.",
-          "tags": ['HTML', 'CSS', 'blog', 'static-site']
-        },
-        {
           "id": 3,
-          "title": "Portal",
-          "link": `https://github.com/mohammed-adil/portal`,
-          "description": "A simple blog application, developed using flask (a python library for used developing web applications).",
-          "tags": ['Python', 'Flask', 'MySQLi']
-        },
-      {
-        "id": 4,
-        "title": "react-todo",
-        "link": `https://github.com/mohammed-adil/react-todo`,
-        "description": "A plain and simple practical representation of CRUD app done using REACT JS(JavaScript library).",
-        "tags": ['React.js', 'todo','CRUD']
-      }
+          "title": "GLUG PACE Official website",
+          "link": `https://glugpace.github.io`,
+          "description": "Official website for GLUG PACE which is a group of people who works for Free Software Movement Karnataka.",
+          "image_url": `/images/projects/glugpace.png`,
+          "tags": ['HTML5', 'CSS3', 'blog', 'static-site']
+        }
   ]
 }
 
@@ -41,12 +38,10 @@ class Projects extends Component {
   }
   render() {
     return (
-      <section className="projects">
+      <section className="projects" id="projects">
         <div className="container">
           <h2>My Projects</h2>
-    			<div class="project-cards">
             <ProjectCard projects={this.state.projects}/>
-          </div>
         </div>
       </section>
     )
