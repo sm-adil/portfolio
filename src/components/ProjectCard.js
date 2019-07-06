@@ -8,9 +8,9 @@ const ProjectCard = ({projects}) => {
         <div className="project" key = {project.id}>
             <div className="project-image">
                 <Img
-                  bgColor='#fdfcfccb'
+                  bgColor='#1614113d'
                   src={project.image_url}
-                  alt={project.image_url}
+                  alt="Project Preview"
                 />
             </div>
             <div className="project-data">
