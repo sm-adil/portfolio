@@ -10,7 +10,7 @@ const projectData = {
         "title": "Tutor.co: blogging web app",
         "link": `http://tutor-co.000webhostapp.com/`,
         "description": "A assignment management website for a modernized institution that take cares of every aspect of learning including exam preparation, overcoming the weaknesses & skill enhancement.",
-        "image_url": `/images/projects/tutor.png`,
+        "image_url": `/images/projects/tutor.jpg`,
         "tags": ['HTML5', 'CSS3', 'PHP', 'MySQLi']
       },
       {
@@ -18,7 +18,7 @@ const projectData = {
             "title": "Trawell: android app",
             "link": `https://github.com/mohammed-adil/Trawell`,
             "description": "A travell guider android application targeted for a local area, using PHP for backend to retrieve data from database.",
-            "image_url": `/images/projects/trawell.png`,
+            "image_url": `/images/projects/trawell.jpg`,
             "tags": ['Android', 'PHP', 'MySQLi']
         },
         {
@@ -26,7 +26,7 @@ const projectData = {
           "title": "GLUG PACE Official website",
           "link": `https://glugpace.github.io`,
           "description": "Official website for GLUG PACE which is a group of people who works for Free Software Movement Karnataka.",
-          "image_url": `/images/projects/glugpace.png`,
+          "image_url": `/images/projects/glugpace.jpg`,
           "tags": ['HTML5', 'CSS3', 'blog', 'static-site']
         }
   ]
