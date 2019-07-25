@@ -244,7 +244,7 @@ nav li > a:hover:before {
 
 footer {
     background-color: #0D1521;
-    color: #fff;
+    color: #fff !important;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
