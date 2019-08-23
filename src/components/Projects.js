@@ -24,7 +24,7 @@ const projectData = {
         {
           "id": 3,
           "title": "GLUG PACE Official website",
-          "link": `https://glugpace.github.io`,
+          "link": `https://mohammed-adil.github.io/glugpace/`,
           "description": "Official website for GLUG PACE which is a group of people who works for Free Software Movement Karnataka.",
           "image_url": `/images/projects/glugpace.jpg`,
           "tags": ['HTML5', 'CSS3', 'blog', 'static-site']
