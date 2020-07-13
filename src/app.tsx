@@ -8,13 +8,15 @@ import './static/css/app.css'
 
 const App: React.FC = () => {
   return (
-    <div className='wrapper'>
+    <>
       <Navbar />
-      <Header />
-      <Skills />
-      <Projects />
+      <div role='main'>
+        <Header />
+        <Skills />
+        <Projects />
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 
