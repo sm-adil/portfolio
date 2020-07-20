@@ -11,7 +11,7 @@
     "react-dom": "^16.13.1",
     "react-progressive-loader": "^0.4.1",
     "react-scripts": "^3.4.1",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   },
   "scripts": {
     "start": "react-scripts start",
