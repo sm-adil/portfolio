@@ -18,9 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "git push -u origin master",
-    "open-releases": "open \"$(node -e 'console.log(`${require(\"./package.json\").repository}/releases`)')\"",
-    "postversion": "npm run test && git push && git push --tags && npm run deploy && npm run open-releases"
+    "open-releases": "open https://github.com/mohammed-adil/Portfolio/releases",
+    "postversion": "git push && git push --tags && npm run open-releases"
   },
   "eslintConfig": {
     "extends": "react-app"
