@@ -12,7 +12,12 @@ const Projects: React.FC = () => {
         {projectsData.map(project => (
           <div className='project' key={project.id}>
             <div className='project-image'>
-              <Img bgColor='#1614113d' src={project.imageUrl} alt='Preview' />
+              <Img bgColor='#1614113d'
+                sizes='(max-width: 1400px) 100vw, 1400px'
+                srcSet={`${project.imageSrc.map(src => src)}`}
+                src={project.imageUrl}
+                alt='Preview'
+              />
             </div>
             <div className='project-data'>
               <h3>{project.title}</h3>
