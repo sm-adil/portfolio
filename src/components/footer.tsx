@@ -13,13 +13,13 @@ const Footer: React.FC = () => {
           message at <a href='mailto: info@smadil.co'>info@smadil.co</a>
         </p>
         <div className='social-media' id='contact'>
-          <a href='https://www.github.com/mohammed-adil/'>
+          <a href='https://www.github.com/sm-adil'>
             <img src={github} alt='github' />
           </a>
-          <a href='https://twitter.com/_mohdAdil'>
+          <a href='https://twitter.com/smadil_'>
             <img src={twitter} alt='twitter' />
           </a>
-          <a href='https://www.linkedin.com/in/sheik-mohammed-adil-5a885b154/'>
+          <a href='https://www.linkedin.com/in/sm-adil'>
             <img src={linkedIn} alt='linkedIn' />
           </a>
         </div>
