@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Tutor.co: CMS web app",
     "link": "https://github.com/sm-adil/tutor.co/",
-    "description": "A assignment management website for a modernized institution that take cares of every aspect of learning including exam preparation, overcoming the weaknesses & skill enhancement.",
+    "description": "An assignment management website for a modernized institution that take cares of every aspect of learning including exam preparation, overcoming the weaknesses & skill enhancement.",
     "imageSrc": [
       "/images/projects/tutor/tutor__200.jpg 200w",
       "/images/projects/tutor/tutor__383.jpg 383w",
@@ -41,7 +41,7 @@
     "id": 2,
     "title": "Trawell: android app",
     "link": "https://github.com/sm-adil/Trawell/",
-    "description": "A travell guider android application targeted for a local area, using PHP for backend to retrieve data from database.",
+    "description": "A travel guider android application targeted for a local area, using PHP for the backend to retrieve data from the database",
     "imageSrc": [
       "/images/projects/trawell/trawell__200.jpg 200w",
       "/images/projects/trawell/trawell__550.jpg 550w",
