@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Tutor.co: CMS web app",
-    "link": "https://github.com/mohammed-adil/tutor.co",
+    "link": "https://github.com/sm-adil/tutor.co/",
     "description": "A assignment management website for a modernized institution that take cares of every aspect of learning including exam preparation, overcoming the weaknesses & skill enhancement.",
     "imageSrc": [
       "/images/projects/tutor/tutor__200.jpg 200w",
@@ -24,7 +24,7 @@
   {
     "id": 3,
     "title": "Glug Pace Official website",
-    "link": "https://mohammed-adil.github.io/glugpace/",
+    "link": "https://sm-adil.github.io/glugpace/",
     "description": "Official website for GLUG PACE which is a group of people who works for Free Software Movement Karnataka.",
     "imageSrc": [
       "/images/projects/glugpace/glugpace__200.jpg 200w",
@@ -40,7 +40,7 @@
   {
     "id": 2,
     "title": "Trawell: android app",
-    "link": "https://github.com/mohammed-adil/Trawell",
+    "link": "https://github.com/sm-adil/Trawell/",
     "description": "A travell guider android application targeted for a local area, using PHP for backend to retrieve data from database.",
     "imageSrc": [
       "/images/projects/trawell/trawell__200.jpg 200w",
