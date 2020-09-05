@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - feature/branch
+name: Merge master branch to develop branch
+jobs:
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Merge master -> develop
+        uses: devmasx/merge-branch@v1.3.0
+        with:
+          type: now
+          from_branch: feature/branch
+          target_branch: testing
+          github_token: ${{ github.token }}
