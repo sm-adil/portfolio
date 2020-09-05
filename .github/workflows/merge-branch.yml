@@ -1,10 +1,10 @@
+name: Merge master branch to develop branch
 on:
   push:
     branches:
-      - feature/branch
-name: Merge master branch to develop branch
+      - [ feature/branch ]
 jobs:
-  deploy:
+  merge-branch:
     name: deploy
     runs-on: ubuntu-latest
     steps:
