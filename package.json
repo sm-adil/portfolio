@@ -29,7 +29,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "cz-conventional-changelog": "^3.2.1"
+    "cz-conventional-changelog": "^3.3.0"
   },
   "config": {
     "commitizen": {
