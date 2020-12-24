@@ -10,7 +10,10 @@ const Footer: React.FC = () => {
         <h3>Let's work together!</h3>
         <p>
           If you’d like to reach out about a project or to chat, just drop me a
-          message at <a href='mailto: info@smadil.co'>info@smadil.co</a>
+          message below{' '}
+          <span role='img' aria-label='links'>
+            👇
+          </span>
         </p>
         <div className='social-media' id='contact'>
           <a href='https://www.github.com/sm-adil'>
