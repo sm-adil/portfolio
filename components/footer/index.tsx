@@ -18,7 +18,7 @@ const Footer = () => {
             <img src='images/twitter.svg' alt='twitter' />
           </a>
           <a href='https://www.linkedin.com/in/sm-adil'>
-            <img src='images/linkedIn.svg' alt='linkedIn' />
+            <img src='images/linkedin.svg' alt='linkedIn' />
           </a>
         </div>
       </div>
