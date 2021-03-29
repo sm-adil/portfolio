@@ -212,6 +212,10 @@ nav li > a:hover:before {
   margin: 1px;
 }
 
+.project h3 a {
+  color: inherit;
+}
+
 .project p {
   color: #27272ac4;
 }
@@ -264,8 +268,6 @@ footer p a {
 
 footer img {
   width: 20px;
-  margin-left: 15px;
-  margin-left: 15px;
 }
 
 footer img:hover {
@@ -275,6 +277,14 @@ footer img:hover {
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
+}
+
+#contact {
+  display: flex;
+  margin: auto;
+  max-width: 85px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 900px) {
