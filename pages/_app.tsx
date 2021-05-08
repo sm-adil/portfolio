@@ -1,6 +1,6 @@
-import '../styles/style.css'
-import Head from 'next/head'
-import { AppProps } from 'next/app'
+import "@styles/style.css";
+import Head from "next/head";
+import { AppProps } from "next/app";
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
@@ -10,7 +10,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       </Head>
       <Component {...pageProps} />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
