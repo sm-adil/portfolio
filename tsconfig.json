@@ -19,7 +19,8 @@
     "paths": {
       "*": ["/*"],
       "@components/*": ["components/*"],
-      "@data/*": ["data/*"]
+      "@data/*": ["data/*"],
+      "@styles/*": ["styles/*"]
     }
   },
   "exclude": ["node_modules"],
